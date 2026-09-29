@@ -7,7 +7,7 @@
  * over months chosen by the user.
  *
  * @author Andrew Lam, alam001@student.sdccd.edu
- * @version v1.0
+ * @version v1.1
  * @since 9/27/2026
  * 
  */
@@ -154,7 +154,7 @@ if (balance > 0){
 /**
 * Return the amount currently in balance
 * 
-* @return balance The amount in balance
+* @return The amount in balance
 */
 
 public double getBalance(){
@@ -165,7 +165,7 @@ return balance;
 /**
 * Return the total amount deposited into balance
 * 
-* @return deposit The total amount of deposits
+* @return The total amount of deposits
 */
 
 public double getDeposit(){
@@ -176,7 +176,7 @@ return deposit;
 /**
 * Return the total amount withdrawed from balance
 * 
-* @return withdraw The total amount of withdrawals
+* @return The total amount of withdrawals
 */
 
 public double getWithdraw(){
@@ -187,7 +187,7 @@ return withdraw;
 /**
 * Return the total amount gained from interest
 * 
-* @return interest The total amount gained from interest
+* @return The total amount gained from interest
 */
 
 public double getInterest(){
